@@ -1,8 +1,63 @@
-h1 {
-font-family: Playfair Display;
-font-size: 80px;
-font-weight: 700;
-line-height: 170.62px;
-text-align: left;
-
+body {
+    font-family: "Playfair Display", serif;
+    background: #352f44;
 }
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url("../images/billie-jean.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+    text-align: center;
+    padding: 190px 0;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 1;
+    margin: 20px 0;
+}
+header h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0;
+}
+header h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    margin: 0;
+}
+header a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: whitesmoke;
+    margin: 20px;
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 16px 32px;
+    display: inline-block;
+    border-radius: 10px;
+}
+@media (max-width: 800px) {
+    header {
+        padding: 60px 0;
+    }
+    header h1 {
+        font-size: 48px;
+    }
+    header h2 {
+        font-size: 15px;
+    }
+    header h3 {
+        font-size: 9px;
+    }
+}
+    
