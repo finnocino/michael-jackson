@@ -10,10 +10,7 @@ header {
     text-align: center;
     padding: 190px 0;
 }
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
+
 header h1 {
     font-weight: 700;
     font-size: 96px;
@@ -46,6 +43,62 @@ header a {
     display: inline-block;
     border-radius: 10px;
 }
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    background-image: linear-gradient(rgba(2,4,3,0.9),rgba(2,4,3,0.9)),
+    url("../images/white-shirt-hat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31.99px;
+    
+}
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.9;
+    margin-right: 16px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+
 @media (max-width: 800px) {
     header {
         padding: 60px 0;
