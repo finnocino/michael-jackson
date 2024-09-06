@@ -178,7 +178,7 @@ footer a {
     padding: 0 20px;
 }
 .img-responsive {
-    max-width: 100%;
+    width: 100%;
 }
 
 .text-center {
